@@ -11,6 +11,9 @@ int main(){
   VideoCapture cap("ukr_slo_mak.mp4");
   //VideoCapture cap(0);
   //New comment
+  /*
+	System Error
+  */
     
   // Check if camera opened successfully
   if(!cap.isOpened()){
