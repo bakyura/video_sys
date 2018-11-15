@@ -10,6 +10,7 @@ int main(){
   // If the input is the web camera, pass 0 instead of the video file name
   VideoCapture cap("ukr_slo_mak.mp4");
   //VideoCapture cap(0);
+  //New comment
     
   // Check if camera opened successfully
   if(!cap.isOpened()){
